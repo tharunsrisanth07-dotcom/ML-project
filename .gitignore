@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache directories and large model downloads
+cache/
+*.npy
+*.npz
+*.zip
+*.tar.gz
+
+# LaTeX build artifacts
+results/*.aux
+results/*.log
+results/*.out
+results/*.fls
+results/*.fdb_latexmk
+results/*.synctex.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS and IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
